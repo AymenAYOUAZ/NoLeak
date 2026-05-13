@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'Vendo'; 
+$dbname = 'NOLEAK'; 
 $user = 'root';
 $pass = 'root'; 
 $charset = 'utf8mb4';

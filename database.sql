@@ -3,10 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 12, 2026 at 07:09 PM
+-- Generation Time: May 13, 2026 at 01:53 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
-
+CREATE DATABASE IF NOT EXISTS `noleak`;
+USE `noleak`;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -19,7 +20,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `vendo`
+-- Database: `noleak`
 --
 
 -- --------------------------------------------------------
