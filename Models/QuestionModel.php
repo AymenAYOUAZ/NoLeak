@@ -9,7 +9,7 @@ class QuestionModel {
     }
 
     // récupérer 10 questions aléatoires
-    public function getRandomQuestions($limit = 10) {
+    public function getRandomQuestions(int $limit = 10): array {
 
         $sql = "SELECT * FROM questions
                 ORDER BY RAND()

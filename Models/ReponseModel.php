@@ -10,10 +10,10 @@ class ReponseModel {
 
     // enregistrer une réponse utilisateur
     public function ajouterReponse(
-        $tentativeId,
-        $questionId,
-        $reponseUtilisateur,
-        $correcte
+        int $tentativeId,
+        int $questionId,
+        string $reponseUtilisateur,
+        bool $correcte
     ) {
 
         $sql = "INSERT INTO reponses_utilisateur

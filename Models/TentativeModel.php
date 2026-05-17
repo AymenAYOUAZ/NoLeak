@@ -10,11 +10,11 @@ class TentativeModel {
 
     // ajouter une tentative
     public function ajouterTentative(
-        $utilisateurId,
-        $score,
-        $nbBonnesReponses,
-        $statut = 'terminee',
-        $tempsRestant = null
+        int $utilisateurId,
+        int $score,
+        int $nbBonnesReponses,
+        string $statut = 'terminee',
+        ?int $tempsRestant = null
     ) {
 
         $sql = "INSERT INTO tentatives
@@ -63,5 +63,6 @@ class TentativeModel {
         $stmt->execute([$utilisateurId]);
 
         return $stmt->fetch(PDO::FETCH_ASSOC);
+        return $resultat['moyenne'] !== null ? (float)$resultat['moyenne'] : 0.0;
     }
 }

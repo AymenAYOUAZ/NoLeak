@@ -11,10 +11,11 @@ require_once '../Models/ReponseModel.php';
 class QcmController {
 
     private $db;
-
+    
     public function __construct() {
-        $this->db = Database::connect();
-    }
+    global $pdo; 
+    $this->db = $pdo; 
+}
 
     // démarrer le QCM
     public function start() {
