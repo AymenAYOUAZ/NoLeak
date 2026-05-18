@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>QCM</title>
-</head>
-<body>
+<?php require 'includes/header.php'; ?>
 
-<h1>QCM</h1>
+<div class="qcm-container">
+
+    <div class="qcm-card">
+
+        <div class="qcm-header">
+
+            <h1>QCM NoLeak</h1>
+
+            <p>
+                Répondez aux questions suivantes.
+            </p>
+
+        </div>
 
 <form action="" method="POST">
 

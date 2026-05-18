@@ -1,12 +1,10 @@
 <?php
 
-session_start();
+require_once __DIR__ . '/../config/db.php';
 
-require_once '../config/db.php';
-
-require_once '../Models/QuestionModel.php';
-require_once '../Models/TentativeModel.php';
-require_once '../Models/ReponseModel.php';
+require_once __DIR__ . '/../Models/QuestionModel.php';
+require_once __DIR__ . '/../Models/TentativeModel.php';
+require_once __DIR__ . '/../Models/ReponseModel.php';
 
 class QcmController {
 
