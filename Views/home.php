@@ -26,7 +26,7 @@
 
         <div class="hero-buttons">
 
-            <a href="index.php?page=quiz" class="btn-primary big-btn">
+            <a href="index.php?page=qcm" class="btn-primary big-btn">
                 Commencer
             </a>
 

@@ -59,7 +59,7 @@
                 Accueil
             </a>
 
-            <a href="/NoLeak/index.php?page=quiz">
+            <a href="/NoLeak/index.php?page=qcm">
                 QCM
             </a>
 
